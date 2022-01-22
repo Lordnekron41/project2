@@ -1,0 +1,107 @@
+.works-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.works-buttons a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #00897b;
+  padding: 20px;
+  margin-right: 15px;
+}
+.works-buttons a:last-child {
+  margin-right: 0;
+}
+.works-buttons a:hover {
+  background-color: #00897b;
+  color: #fff;
+}
+.works-buttons a.checked {
+  background-color: #00897b;
+  color: #fff;
+}
+.my-flex-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.accordion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 370px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.accordion:hover h3 {
+  visibility: visible;
+}
+.accordion:hover p {
+  visibility: visible;
+}
+.accordion:hover {
+  box-shadow: 0 0 0 185px rgba(0, 0, 0, 0.75) inset;
+}
+.accordion:nth-child(1) {
+  background-image: url(img/works/layer_1.jpg);
+}
+.accordion:nth-child(2) {
+  background-image: url(img/works/layer_2.jpg);
+}
+.accordion:nth-child(3) {
+  background-image: url(img/works/layer_3.jpg);
+}
+.accordion:nth-child(4) {
+  background-image: url(img/works/layer_4.jpg);
+}
+.accordion:nth-child(5) {
+  background-image: url(img/works/layer_5.jpg);
+}
+.accordion:nth-child(6) {
+  background-image: url(img/works/layer_6.jpg);
+}
+.accordion:last-child {
+  margin-bottom: 130px;
+}
+.accordion h3,
+.accordion p {
+  visibility: hidden;
+}
+.accordion p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+}
+.accordion h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+.view-all-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 135px;
+}
+.view-all-button a {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #00897b;
+  padding: 30px 60px;
+}

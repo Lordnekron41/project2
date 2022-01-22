@@ -1,0 +1,43 @@
+.members {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 125px;
+}
+.member-contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.member-contact {
+  margin-right: 20px;
+  display: flex;
+  color: #00897b;
+  background-color: #f0f1f1;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.member-contact:last-child {
+  margin-right: 0;
+}
+.member-contact:hover {
+  color: #fff;
+  background-color: #3949ab;
+}
+.member-name {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+.member-rank {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+  margin-top: 10px;
+}
