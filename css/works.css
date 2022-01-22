@@ -51,22 +51,22 @@
   box-shadow: 0 0 0 185px rgba(0, 0, 0, 0.75) inset;
 }
 .accordion:nth-child(1) {
-  background-image: url(img/works/layer_1.jpg);
+  background-image: url(img/works/Layer_1.jpg);
 }
 .accordion:nth-child(2) {
-  background-image: url(img/works/layer_2.jpg);
+  background-image: url(img/works/Layer_2.jpg);
 }
 .accordion:nth-child(3) {
-  background-image: url(img/works/layer_3.jpg);
+  background-image: url(img/works/Layer_3.jpg);
 }
 .accordion:nth-child(4) {
-  background-image: url(img/works/layer_4.jpg);
+  background-image: url(img/works/Layer_4.jpg);
 }
 .accordion:nth-child(5) {
-  background-image: url(img/works/layer_5.jpg);
+  background-image: url(img/works/Layer_5.jpg);
 }
 .accordion:nth-child(6) {
-  background-image: url(img/works/layer_6.jpg);
+  background-image: url(img/works/Layer_6.jpg);
 }
 .accordion:last-child {
   margin-bottom: 130px;
